@@ -1,0 +1,8 @@
+.page{
+    height: 100v;
+}
+.img-fondo{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../image/laptop-g6f5eedbbb_1920.jpg');
+    background-size: cover;
+}

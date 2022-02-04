@@ -1,7 +1,5 @@
 $enable-responsive-font-sizes: true;
-.page{
-    height: 100vh;
-}
+
 .img-fondo{
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url('../image/laptop-g6f5eedbbb_1920.jpg') no-repeat center center fixed;
     /* position: absolute;
@@ -10,6 +8,15 @@ $enable-responsive-font-sizes: true;
     right: 0;
     bottom: 0; */
     background-size: cover;
+}
+
+.bg-trans{
+    background:rgba(0, 0, 0, 0.9);
+    transition: all 1s ease;
+}
+
+.container .pb-5{
+    padding-top: 7.5rem;
 }
 
 @import "../libs/bootstrap/scss/bootstrap";

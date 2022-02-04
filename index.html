@@ -7,16 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Archivos css Boostrap 4 -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <title>Document</title>
+  <title>Portafolio</title>
 </head>
 
 <body>
   <!-- Header -->
   <header class="vh-100 img-fondo">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -29,7 +28,7 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de</a>
+              <a class="nav-link" href="#about">Acerca de</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Habilidades</a>
@@ -47,7 +46,7 @@
     <div class="container ">
       <div class="row vh-100 justify-content-center align-items-center">
         <div class="text-center">
-          <div class="display-3 font-weight-bold text-white">Ingeniero Junior Desarrollador Web</span></div>
+          <div class="display-3 font-weight-bold text-white">Ingeniero Junior, Desarrollador Web</span></div>
           <div class="h2 text-white">Backend Developer.</div>
           <div class="h5 text-white">apasionado por el mundo del desarrollo.</div>
         </div>
@@ -56,11 +55,126 @@
   </header>
   <!-- header -->
 
+  <!-- About -->
+  <div class="container vh-100 about" id="about">
+    <div class="row pb-5">
+      <div class="col-12">
+        <h1>Sobre Mi</h1>
+        <p>Soy Fausto Montes, un apasionado de la tecnología y desarrollador web
+          Me gusta la programación he estado desarrollando proyectos personales para fortalecer mis habilidades como desarrollador web.
+          Mi meta es convertirme en uno de los grandes desarrollador full stack.</p>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-4">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="far fa-user fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Nombre:</h5>
+                <p class="card-text"><small>Fausto Montes Espinoza</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="far fa-calendar-alt fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Cumpleaños:</h5>
+                <p class="card-text"><small>31 de Mayo 2000</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="far fa-envelope fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Email:</h5>
+                <p class="card-text"><small>faustomontesespinoza@gmail.com</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="far fa-smile-beam fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Interes:</h5>
+                <p class="card-text"><small>Musica, Pelicula, Video Juego</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="fas fa-globe-americas fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Ubicación:</h5>
+                <p class="card-text"><small>Lima,Perú</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card shadow-sm mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+              <i class="fas fa-mobile-alt fa-3x"></i>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Celular:</h5>
+                <p class="card-text"><small>+51 918 033 412</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-5">
+      <div class="col-3">
+        <div class="btn btn-primary btn-lg btn-block">
+          Desacarga CV
+          <i class="fas fa-file-download"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About -->
+
 
   <!-- Archivos bootstrap javascript -->
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/daa23380af.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

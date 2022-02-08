@@ -16,7 +16,7 @@
 }
 
 .pt-6 {
-  padding-top: 7.5rem;
+  padding-top: 7.5rem !important;
 }
 
 /*!
@@ -10933,5 +10933,9 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+body {
+  background-color: #f1f4f8;
 }
 /*# sourceMappingURL=main.css.map */

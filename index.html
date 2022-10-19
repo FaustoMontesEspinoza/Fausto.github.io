@@ -8,6 +8,8 @@
 
   <!-- Archivos css Boostrap 4 -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://unpkg.com/scrollreveal@4"></script>
 
   <title>Portafolio</title>
 </head>
@@ -54,109 +56,19 @@
 
   <!-- About -->
   <div class="container about" id="about">
-    <div class="row pt-6 pb-5">
+    <div class="row py-5 align-items-center">
       <div class="col-12 text-center">
-        <h1>Sobre Mi</h1>
+        <h2>Sobre mi</h2>
+      </div>
+      <div class="col-6 py-4 headline">
+        <img src="image/Web Developer_Monochromatic.svg" alt="">
+      </div>
+      <div class="col-6 text-center">
         <p>Soy Fausto Montes, un apasionado de la tecnología y desarrollador web
-          Me gusta la programación he estado desarrollando proyectos personales para fortalecer mis habilidades como desarrollador web.
+          Me gusta la programación he estado desarrollando proyectos personales para fortalecer mis habilidades como
+          desarrollador web.
           Mi meta es convertirme en uno de los grandes desarrollador full stack.</p>
-      </div>
-    </div>
-    <div class="row pb-3">
-      <div class="col-12 col-sm-6 col-md-5 col-lg-4">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="far fa-user fa-3x"></i>
-            </div>
-            <div class="col-4 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Nombre:</h5>
-                <p class="card-text"><small>Fausto Montes Espinoza</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-md-7 col-lg-3">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="far fa-calendar-alt fa-3x"></i>
-            </div>
-            <div class="col-8 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Cumpleaños:</h5>
-                <p class="card-text"><small>31 de Mayo 2000</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-12 col-md-7 col-lg-5">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="far fa-envelope fa-3x"></i>
-            </div>
-            <div class="col-8 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Email:</h5>
-                <p class="card-text"><small>faustomontesespinoza@gmail.com</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-12 col-md-5 col-lg-4">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="far fa-smile-beam fa-3x"></i>
-            </div>
-            <div class="col-8 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Interes:</h5>
-                <p class="card-text"><small>Musica, Pelicula, Video Juego</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="fas fa-globe-americas fa-3x"></i>
-            </div>
-            <div class="col-8 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Ubicación:</h5>
-                <p class="card-text"><small>Lima,Perú</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-sm-6 col-lg-4">
-        <div class="card shadow-sm mb-3">
-          <div class="row no-gutters">
-            <div class="col-4 col-sm-4 d-flex justify-content-center align-items-center">
-              <i class="fas fa-mobile-alt fa-3x"></i>
-            </div>
-            <div class="col-8 col-sm-8">
-              <div class="card-body">
-                <h5 class="card-title">Celular:</h5>
-                <p class="card-text"><small>+51 918 033 412</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row ">
-      <div class="col-6 col-lg-4">
-        <a href="pdf/Cv-Fausto.pdf" download="cvFausto.pdf" class="btn btn-primary btn-lg btn-block">
+        <a href="pdf/Cv-Fausto.pdf" download="cvFausto.pdf" class="btn btn-primary btn-lg">
           Desacarga CV
           <i class="fas fa-file-download"></i>
         </a>
@@ -167,85 +79,93 @@
   <!--Habilidades-->
   <div class="habilidad" id="habilidad">
     <div class="container">
-      <div class="row py-5">
+      <div class="row pt-3 pb-5">
         <div class="col-12">
-          <h1 class="text-center">Habilidades</h1>
+          <h2 class="text-center">Habilidades</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-html5 fa-3x"></i>
-              <h5 class="card-title">HTML</h5>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-html5 fa-3x"></i>
+                  <h5 class="card-title">HTML</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-css3-alt fa-3x"></i>
+                  <h5 class="card-title">CSS</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fas fa-database fa-3x"></i>
+                  <h5 class="card-title">SQL</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-js-square fa-3x"></i>
+                  <h5 class="card-title">JavaScript</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-github fa-3x"></i>
+                  <h5 class="card-title">GitHub</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-php fa-3x"></i>
+                  <h5 class="card-title">PHP</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-laravel fa-3x"></i>
+                  <h5 class="card-title">Laravel</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fab fa-bootstrap fa-3x"></i>
+                  <h5 class="card-title">Bootstrap</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 text-center">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <i class="fas fa-book fa-3x"></i>
+                  <h5 class="card-title">Jquery</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-css3-alt fa-3x"></i>
-              <h5 class="card-title">CSS</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fas fa-database fa-3x"></i>
-              <h5 class="card-title">SQL</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-js-square fa-3x"></i>
-              <h5 class="card-title">JavaScript</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-github fa-3x"></i>
-              <h5 class="card-title">GitHub</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-php fa-3x"></i>
-              <h5 class="card-title">PHP</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-laravel fa-3x"></i>
-              <h5 class="card-title">Laravel</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fab fa-bootstrap fa-3x"></i>
-              <h5 class="card-title">Bootstrap</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-4 text-center">
-          <div class="card mb-3">
-            <div class="card-body">
-              <i class="fas fa-book fa-3x"></i>
-              <h5 class="card-title">Jquery</h5>
-            </div>
-          </div>
+        <div class="col-6 headline">
+          <img src="image/Code Development _Outline.svg" alt="">
         </div>
       </div>
+
     </div>
   </div>
   <!--Habilidades-->
@@ -254,43 +174,68 @@
     <div class="container">
       <div class="row py-5">
         <div class="col-12">
-          <h1 class="text-center">Portafolio</h1>
+          <h2 class="text-center">Portafolio</h2>
         </div>
       </div>
       <div class="row">
         <div class="col-4 mb-3">
           <div class="card">
-            <img src="image/trabajo1.png" class="card-img-top" alt="...">
-            <div class="card-body text-center text-white bg-primary">
-              <h1>Fausto</h1>
-              <p class="card-text">Primer Portafolio</p>
-              <p>Html + Boostrap</p>
-              <a href="https://github.com/FaustoMontesEspinoza/Fausto.github.io" class="btn btn-dark">Ver Proyecto <i class="fab fa-github"></i></a>
+            <div class="cont">
+              <img src="image/trabajo1.png" alt="..." class="image">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Portafolio</h4>
+                  <div class="d-flex justify-content-between mt-4">
+                    <a class="btn btn-primary" id="tra1">
+                      <i class="fas fa-search"></i>
+                    </a>
+                    <a href="https://github.com/FaustoMontesEspinoza/TodoListLaravel" target="_blank"
+                      rel="noopener noreferrer" class="btn btn-dark"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-4 mb-3">
           <div class="card">
-            <img src="image/trabajo2.png" class="card-img-top" alt="...">
-            <div class="card-body text-center text-white bg-primary">
-              <h1>Lista de Tareas</h1>
-              <p class="card-text">Aplicacion para registrar tus actividades</p>
-              <p>Html + Boostrap + Laravel</p>
-              <a href="https://github.com/FaustoMontesEspinoza/TodoListLaravel" class="btn btn-dark">Ver Proyecto <i class="fab fa-github"></i></a>
+            <div class="cont">
+              <img src="image/trabajo2.png" alt="..." class="image">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Lista de tareas</h4>
+                  <div class="d-flex justify-content-between mt-4">
+                    <a class="btn btn-primary" id="tra2">
+                      <i class="fas fa-search"></i>
+                    </a>
+                    <a href="https://github.com/FaustoMontesEspinoza/Fausto.github.io" target="_blank"
+                      rel="noopener noreferrer" class="btn btn-dark"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-4 mb-3">
           <div class="card">
-            <img src="image/trabajo2.png" class="card-img-top" alt="...">
-            <div class="card-body text-center text-white bg-primary">
-              <h1>Crud php Composer</h1>
-              <p class="card-text">Aplicacion de registro de usuarios</p>
-              <p>Php + Boostrap + jquery + PDO + POO + MVC</p>
-              <a href="https://github.com/FaustoMontesEspinoza/crudComposer.git" class="btn btn-dark">Ver Proyecto <i class="fab fa-github"></i></a>
+            <div class="cont">
+              <img src="image/trabajo3.png" alt="..." class="image">
+              <div class="overlay">
+                <div class="text">
+                  <h4>Control De Usuarios</h4>
+                  <div class="d-flex justify-content-between mt-4">
+                    <a class="btn btn-primary" id="tra3">
+                      <i class="fas fa-search"></i>
+                    </a>
+                    <a href="https://github.com/FaustoMontesEspinoza/crudComposer" target="_blank"
+                      rel="noopener noreferrer" class="btn btn-dark"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
@@ -303,13 +248,20 @@
             <p>2022 ©Fausto</p>
             <p>
               <a href="https://github.com/FaustoMontesEspinoza"><i class=" text-white fab fa-github fa-2x"></i></a>
-              <a href="https://www.linkedin.com/in/fausto-montes-espinoza-102185177/"><i class="text-white fab fa-linkedin fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/fausto-montes-espinoza-102185177/"><i
+                  class="text-white fab fa-linkedin fa-2x"></i></a>
             </p>
           </div>
         </div>
       </div>
     </div>
   </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    
+  </div>
 
   <!-- Archivos bootstrap javascript -->
   <script src="js/jquery-3.6.0.min.js"></script>
